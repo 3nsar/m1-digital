@@ -11,7 +11,7 @@ const Hero = () => {
         loop
         muted
         src={lava}
-        className="absolute inset-0 z-10 w-full h-full object-cover"
+        className="absolute inset-0 z-10 w-full h-full object-cover brightness-50"
       />
 
       {/* Content */}
@@ -33,10 +33,11 @@ const Hero = () => {
 
           <a
             href=""
-            className="mt-4 inline-block border border-white px-8 py-3 uppercase tracking-wide hover:bg-white hover:text-black transition"
+            className="mt-4 inline-block border border-primary-white px-8 py-3 uppercase tracking-wide hover:bg-primary-white hover:text-primary-black transition"
           >
             Explore
           </a>
+          
 
         </div>
       </div>
