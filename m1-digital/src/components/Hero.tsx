@@ -1,5 +1,6 @@
 import React from 'react'
 import lava from '../videos/lava.mp4'
+import { motion, useInView } from 'framer-motion';
 
 const Hero = () => {
   return (
@@ -21,10 +22,25 @@ const Hero = () => {
           <p className="uppercase tracking-widest">
             THINKING OUTSIDE THE BOX
           </p>
-
-          <h1 className="text-5xl md:text-6xl font-extrabold">
+          <motion.h1
+            className="text-5xl md:text-6xl font-extrabold"
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: { opacity: 0, y: 40 },
+              visible: {
+                opacity: 1,
+                y: 0,
+                transition: {
+                  duration: 0.9,
+                  ease: [0.22, 1, 0.36, 1],
+                },
+              },
+            }}
+          >
             DELIVERING BEYOND EXPECTATIONS.
-          </h1>
+          </motion.h1>
+
 
           <p className="max-w-xl">
             Since 2012, we've been pushing the boundaries of what's possible in web
