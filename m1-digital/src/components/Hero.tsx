@@ -49,7 +49,7 @@ const Hero = () => {
 
           <a
             href=""
-            className="mt-4 inline-block border border-primary-white px-8 py-3 uppercase tracking-wide hover:bg-primary-white hover:text-primary-black transition"
+            className="mt-4 rounded-2xl border-none inline-block border bg-dark-blue px-8 py-3 uppercase tracking-wide hover:bg-primary-white hover:text-primary-black transition"
           >
             Explore
           </a>

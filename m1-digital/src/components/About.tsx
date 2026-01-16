@@ -3,11 +3,13 @@ import { motion, useInView } from 'framer-motion';
 
 const About = () => {
   return (
-    <div className='container flex flex-col min-h-screen'>
-      <motion.h1
+    <div className='flex flex-col min-h-screen justify-center items-center'>
+      <div className='text-center flex flex-col items-center'>
+      
+            <motion.h1
             className="text-5xl md:text-6xl font-extrabold"
             initial="hidden"
-            animate="visible"
+            whileInView="visible"
             variants={{
               hidden: { opacity: 0, y: 40 },
               visible: {
@@ -25,9 +27,9 @@ const About = () => {
 
 
             <motion.p
-            className="text-2xl md:text-4xl font-light "
+            className="text-2xl md:text-4xl font-light text-center max-w-7xl mt-5"
             initial="hidden"
-            animate="visible"
+            whileInView="visible"
             variants={{
               hidden: { opacity: 0, y: 40 },
               visible: {
@@ -44,7 +46,7 @@ const About = () => {
 
           </motion.p>
     </div>
-    
+    </div>
   )
 }
 
