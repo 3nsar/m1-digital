@@ -1,4 +1,4 @@
-export default function Example() {
+export default function Footer() {
     return (
         <footer className="w-full bg-gradient-to-b from-[#F1EAFF] to-[#FFFFFF] text-gray-800">
             <div className="max-w-7xl mx-auto px-6 py-16 flex flex-col items-center">
