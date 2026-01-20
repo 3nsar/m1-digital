@@ -6,7 +6,7 @@ const Navbar: React.FC = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <nav className="h-[70px] relative w-full px-6 md:px-16 lg:px-24 xl:px-32 flex items-center justify-between z-30 bg-gradient-to-r from-indigo-700 to-violet-500 transition-all">
+    <nav className="h-[70px] relative w-full px-6 md:px-16 lg:px-24 xl:px-32 flex items-center justify-between z-30 bg-gradient-to-r from-primary-black to-dark-blue transition-all">
       
       {/* Logo */}
       <img alt="" className="h-11"
@@ -23,9 +23,9 @@ const Navbar: React.FC = () => {
       {/* Desktop Button */}
       <button
         type="button"
-        className="bg-primary-white text-gray-700 md:inline hidden text-sm hover:opacity-90 active:scale-95 transition-all w-40 h-11 rounded-full"
+        className="bg-primary-white text-primary-black md:inline hidden text-sm cursor-pointer hover:opacity-90 active:scale-95 transition-all w-40 h-11 rounded-full"
       >
-        Get started
+        GET STARTED
       </button>
 
       {/* Mobile Menu Button */}
@@ -55,9 +55,9 @@ const Navbar: React.FC = () => {
 
         <button
           type="button"
-          className="bg-primary-white text-gray-700 mt-6 inline md:hidden text-sm hover:opacity-90 active:scale-95 transition-all w-40 h-11 rounded-full"
+          className="bg-primary-white cursor-pointer text-primary-black mt-6 inline md:hidden text-sm hover:opacity-90 active:scale-95 transition-all w-40 h-11 rounded-full"
         >
-          Get started
+          GET STARTED
         </button>
       </div>
     </nav>
