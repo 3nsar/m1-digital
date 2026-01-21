@@ -3,8 +3,7 @@ export default function Footer() {
         <footer className="w-full bg-primary-black text-primary-white border-t border-primary-white">
             <div className="max-w-7xl mx-auto px-6 py-16 flex flex-col items-center">
                 <div className="flex items-center space-x-3 mb-6">
-                    <img alt="" className="h-11"
-                        src="vite.svg" />
+ <p className='text-5xl'>🛸</p>
                         <p className="font-bold text-2xl">M1-DIGITAL</p>
                 </div>
                 <p className="text-center max-w-xl text-sm font-normal leading-relaxed">

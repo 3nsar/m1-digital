@@ -9,8 +9,7 @@ const Navbar: React.FC = () => {
     <nav className="h-[70px] relative w-full px-6 md:px-16 lg:px-24 xl:px-32 flex items-center justify-between z-30 bg-gradient-to-r from-primary-black to-dark-blue transition-all">
       
       {/* Logo */}
-      <img alt="" className="h-11"
-                        src="vite.svg" />
+      <p className='text-5xl'>🛸</p>
 
       {/* Desktop Menu */}
       <ul className="text-primary-white md:flex hidden items-center gap-10">
@@ -33,7 +32,7 @@ const Navbar: React.FC = () => {
         aria-label="menu-btn"
         type="button"
         onClick={() => setMobileOpen(prev => !prev)}
-        className="inline-block md:hidden active:scale-90 transition"
+        className="inline-block md:hidden active:scale-90 transition cursor-pointer"
       >
         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="#fff">
           <path d="M3 7a1 1 0 1 0 0 2h24a1 1 0 1 0 0-2zm0 7a1 1 0 1 0 0 2h24a1 1 0 1 0 0-2zm0 7a1 1 0 1 0 0 2h24a1 1 0 1 0 0-2z" />
@@ -42,7 +41,7 @@ const Navbar: React.FC = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`absolute top-[70px] left-0 w-full bg-gradient-to-r from-indigo-700 to-violet-500 p-6 md:hidden ${
+        className={`absolute top-[70px] left-0 w-full bg-primary-black p-6 md:hidden ${
           mobileOpen ? "block" : "hidden"
         }`}
       >
