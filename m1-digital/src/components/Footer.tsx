@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer className="w-full bg-primary-black text-primary-white border-t border-primary-white">
+        <footer className="w-full bg-gradient-to-b from-primary-black to-dark-blue text-primary-white ">
             <div className="max-w-7xl mx-auto px-6 py-16 flex flex-col items-center">
                 <div className="flex items-center space-x-3 mb-6">
  <p className='text-5xl'>🛸</p>
