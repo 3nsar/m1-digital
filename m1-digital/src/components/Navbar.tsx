@@ -13,10 +13,10 @@ const Navbar: React.FC = () => {
 
       {/* Desktop Menu */}
       <ul className="text-primary-white md:flex hidden items-center gap-10">
-        <li><a className="hover:text-primary-white/70 transition" href="#">Home</a></li>
-        <li><a className="hover:text-primary-white/70 transition" href="#">Services</a></li>
-        <li><a className="hover:text-primary-white/70 transition" href="#">Portfolio</a></li>
-        <li><a className="hover:text-primary-white/70 transition" href="#">Pricing</a></li>
+        <li><a className="hover:text-primary-white/70 transition cursor-pointer" href="#">Home</a></li>
+        <li><a className="hover:text-primary-white/70 transition cursor-pointer" href="#">Services</a></li>
+        <li><a className="hover:text-primary-white/70 transition cursor-pointer" href="#">Portfolio</a></li>
+        <li><a className="hover:text-primary-white/70 transition cursor-pointer" href="#">Pricing</a></li>
       </ul>
 
       {/* Desktop Button */}
@@ -45,19 +45,20 @@ const Navbar: React.FC = () => {
           mobileOpen ? "block" : "hidden"
         }`}
       >
-        <ul className="flex flex-col space-y-4 text-primary-white text-lg">
-          <li><a href="#" className="text-sm">Home</a></li>
-          <li><a href="#" className="text-sm">Services</a></li>
-          <li><a href="#" className="text-sm">Portfolio</a></li>
-          <li><a href="#" className="text-sm">Pricing</a></li>
+        <ul className="flex flex-col items-center space-y-4 text-primary-white text-lg">
+          <li className='cursor-pointer'><a href="#" className="text-sm cursor-pointer">Home</a></li>
+          <li className='cursor-pointer'><a href="#" className="text-sm cursor-pointer">Services</a></li>
+          <li className='cursor-pointer'><a href="#" className="text-sm cursor-pointer">Portfolio</a></li>
+          <li className='cursor-pointer'><a href="#" className="text-sm ">Pricing</a></li>
+          <li>          <a
+            href="#"
+            className="mt-4 rounded-2xl border-none inline-block border text-primary-black bg-primary-white px-8 py-3 uppercase tracking-wide"
+          >
+             GET STARTED
+          </a></li>
         </ul>
 
-        <button
-          type="button"
-          className="bg-primary-white cursor-pointer text-primary-black mt-6 inline md:hidden text-sm hover:opacity-90 active:scale-95 transition-all w-40 h-11 rounded-full"
-        >
-          GET STARTED
-        </button>
+
       </div>
     </nav>
   );
