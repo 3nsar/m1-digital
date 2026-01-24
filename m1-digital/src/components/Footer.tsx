@@ -11,9 +11,9 @@ export default function Footer() {
                     into reality.
                 </p>
             </div>
-            <div className="border-t border-primary-white">
+            <div className="border-t border-dark-blue">
                 <div className="max-w-7xl mx-auto px-6 py-6 text-center text-sm font-normal">
-                    <a href="https://prebuiltui.com">prebuiltui</a> ©2025. All rights reserved.
+                    <p className="gap-3 text-sm font-light text-primary-white" >M1-DIGITAL. All rights reserved.</p> 
                 </div>
             </div>
         </footer>

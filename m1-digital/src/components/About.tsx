@@ -7,7 +7,7 @@ const About = () => {
       <div className='text-center flex flex-col items-center'>
       
             <motion.h1
-            className="text-5xl md:text-6xl font-extrabold"
+            className="text-3xl md:text-6xl font-extrabold"
             initial="hidden"
             whileInView="visible"
             variants={{
@@ -27,7 +27,7 @@ const About = () => {
 
 
             <motion.p
-            className="text-2xl md:text-4xl font-light text-center max-w-7xl mt-5"
+            className="text-xl md:text-4xl font-light text-center max-w-7xl mt-5"
             initial="hidden"
             whileInView="visible"
             variants={{
