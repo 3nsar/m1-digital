@@ -42,8 +42,7 @@ const Details = () => {
               },
             }}
           >
-                  Main dans la main avec nos clients, notre agence réalise des projets marketing puissants et met en œuvre des stratégies publicitaires performantes. Tout cela grâce à une équipe dynamique et riche  expérience de 25+ ans.
-
+                 We design digital experiences that connect brands with people. From strategy and design to performance-driven campaigns, we help businesses grow in a digital-first world — backed by over 25 years of industry expertise.
           </motion.p>
     </div>
     </div>

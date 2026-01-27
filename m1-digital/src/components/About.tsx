@@ -42,8 +42,7 @@ const About = () => {
               },
             }}
           >
-                  Main dans la main avec nos clients, notre agence réalise des projets marketing puissants et met en œuvre des stratégies publicitaires performantes. Tout cela grâce à une équipe dynamique et riche  expérience de 25+ ans.
-
+Hand in hand with our clients, our agency delivers powerful marketing projects and implements high-performing advertising strategies. All of this is made possible by a dynamic team with over 25 years of experience.
           </motion.p>
     </div>
     </div>
