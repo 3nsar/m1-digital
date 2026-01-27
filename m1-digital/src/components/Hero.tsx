@@ -1,6 +1,6 @@
-import React from 'react'
+
 import lava from '../videos/lava.mp4'
-import { motion, useInView } from 'framer-motion';
+import { motion,  } from 'framer-motion';
 
 const Hero = () => {
   return (
